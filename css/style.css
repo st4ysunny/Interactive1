@@ -1,3 +1,39 @@
-body { background: CadetBlue; }
+body { 
+	background: darkslategrey;
+	padding-left: 50px;
+}
 
-p {color: ivory}
+p {
+	color: honeydew;
+	font-family: sans-serif;
+	font-size: 12pt;
+	width:400px;
+}
+
+pre{
+	color: honeydew;
+
+}
+
+h1{
+	color: powderblue;
+	font-family: monospace;
+	font-size:20pt;
+
+}
+
+h3{
+	color: powderblue;
+	font-family: monospace;
+}
+
+.link{
+    font-family: sans-serif;
+    font-size: 10pt;
+    color: lavender;
+}
+
+ul{
+	color: powderblue;
+}
+
