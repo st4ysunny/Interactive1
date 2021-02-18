@@ -2,6 +2,161 @@
 body{
     background-color: darkslategrey;
 }
+
+.link{
+    font-family: sans-serif;
+    font-size: 14pt;
+    color: lavender;
+}
+
+h1{
+    font-family: sans-serif;
+    font-size: 18pt;
+    color: honeydew;
+    margin-top: 75px;
+}
+
+.wrapper{
+    width: 300px;
+    height: 300px;
+}
+
+/*.wrapper div{
+    transition: all 200ms ease 0s;
+}*/
+
+
+.wrapper:hover div {
+    background: transparent;
+    box-shadow: 15px 15px 0 0 transparent;
+    border-bottom: 60px solid transparent;
+}
+
+.wrapper-top{
+    width: 150px;
+    height: 170px;
+    border-radius: 170px / 200px;
+    background: thistle;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+
+}
+
+.wrapper-bottom{
+    border-bottom: 30px solid thistle;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    height: 0;
+    width: 50px;
+    position: absolute;
+    top: 355px;
+    left: 231px;
+}
+
+.wrapper-shadow{
+    width: 50px;
+    height: 80px;
+    border-radius: 46%;
+    box-shadow: 9px 6px 0 0 grey;
+    background: transparent;
+    position: absolute;
+    top:253px;
+    left: 274px;
+    transform:rotate(15deg);
+}
+
+.candy{
+    width: 120px;
+    height: 120px;
+    background: #80007575;
+    border-radius: 50%;
+    position: fixed;
+    top: 252px;
+    left: 216px;
+}
+
+.candy-stripe{
+    width: 130px;
+    height: 25px;
+    background: #80007575;
+    position: fixed;
+    top: 300px;
+    left: 211px;
+}
+
+.chocolate{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #6c4131;
+    position: fixed;
+    top: 283px;
+    left: 236px;
+}
+
+.chunk-one{
+    width: 40px;
+    height: 45px;
+    border-radius: 50%;
+    background: ##2f4f4f01;
+    position: fixed;
+    top: 247px;
+    left: 246px;
+    transform: rotate(47deg);
+}
+
+.chunk-two{
+    width: 40px;
+    height: 45px;
+    border-radius: 50%;
+    background: #2f4f4f01;
+    position: fixed;
+    top: 257px;
+    left: 216px;
+    transform: rotate(18deg);
+}
+
+.lollipop-unwrapped:hover .go-away{
+    background: darkslategray;
+}
+
+
+.lollipop-unwrapped{
+    width: 300px;
+    height: 600px;
+}
+
+.stick{
+    position: fixed;
+    width: 10px;
+    height:190px;
+    top: 340px;
+    left:272px;
+    background: ivory;
+}
+
+.owl{
+    height: 120px;
+    width: 72px;
+    border-radius: 20%;
+    background: ivory;
+    position: fixed;
+    bottom: 50px;
+    right:49px
+}
+
+.owl pre{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+
+.owl a{
+    position: fixed;
+    bottom: 50px;
+    right: 75px;
+}
 /*
 .lollipop{
     transition: all 200ms ease 0s;
@@ -11,7 +166,7 @@ body{
     background-color: black;
 }*/
 
-.circle{
+/*.circle{
     position: fixed;
     top: 200px;
     left: 300px;
@@ -21,6 +176,9 @@ body{
     border-radius: 170px / 200px;
 }
 
+.circle:hover{
+    background: magenta;
+}
 
 .wrapper-bottom {
     border-bottom: 60px solid thistle;
@@ -33,9 +191,13 @@ body{
     left:339px;
 }
 
-/*.wrapper:hover{
-    background-color: darkmagenta; */
+.wrapper{
+    background: thistle;
+}
 
+.wrapper:hover{
+    background: magenta;
+}
 
 .stick{
     position: fixed;
@@ -59,7 +221,7 @@ body{
 
 .block-shadow-one{
     position: fixed;
-    background: thistle;
+/*    background: thistle;
     width: 85px;
     height: 20px;
     top: 246px;
@@ -68,8 +230,8 @@ body{
 
 .block-shadow-two{
     position: fixed;
-    background: thistle;
-    width: 72px;
+/*    background: thistle;
+*//*    width: 72px;
     height: 117px;
     border-radius: 50%;
     top: 232px;
@@ -88,69 +250,4 @@ h1{
     color: honeydew;
     margin-top: 75px;
 }
-/*
-
-    top: 344px;
-    border-bottom: 60px solid red;
-    border-bottom-width: 60px;
-    border-bottom-style: solid;
-    border-bottom-color: red;
-    border-left: 20px solid transparent;
-    border-left-width: 20px;
-    border-left-style: solid;
-    border-left-color: transparent;
-    border-right: 20px solid transparent;
-    border-right-width: 20px;
-    border-right-style: solid;
-    border-right-color: transparent;
-
-    width: 41px;
-    position: fixed;
-    left: 336px;
-}
-.circle{
-    position: absolute;
-    top: 100px;
-    left: 200px;
-    width: 150px;
-    height: 170px;
-    background: red;
-    border-radius: 170px / 200px;
-}
-
-
-
-
-.square {
-    width: 260px;
-    height: 400px;
-    background: black;
-    position: absolute;
-    top: 100px;
-    left: 150px;
-    border-radius: 20px 20px 120px 120px;
-}
-
-.handle {
-    width: 200px;
-    height: 250px;
-    background: black;
-    position: absolute;
-    left: 310px;
-    top: 130px;
-    border-radius: 30px;
-}
-
-.counter {
-    width: 70px;
-    height: 183px;
-    background: lightgrey;
-    position: absolute;
-    left: 410px;
-    top: 162px;
-    border-radius: 0px 10px 10px 0px;
-
-    inline{
-    display: inline-block;
-}*/
-}*/
+*//*/
