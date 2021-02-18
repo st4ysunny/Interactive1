@@ -14,7 +14,7 @@ body{
 }
 
 
-.flare {
+.wrapper-bottom {
     border-bottom: 60px solid thistle;
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
@@ -23,6 +23,10 @@ body{
     position: fixed;
     top:344px;
     left:339px;
+}
+
+.wrapper:hover{
+    background-color: darkmagenta; 
 }
 
 .stick{
