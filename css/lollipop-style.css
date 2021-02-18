@@ -2,6 +2,14 @@
 body{
     background-color: darkslategrey;
 }
+/*
+.lollipop{
+    transition: all 200ms ease 0s;
+}
+
+.lollipop:hover{
+    background-color: black;
+}*/
 
 .circle{
     position: fixed;
@@ -25,9 +33,9 @@ body{
     left:339px;
 }
 
-.wrapper:hover{
-    background-color: darkmagenta; 
-}
+/*.wrapper:hover{
+    background-color: darkmagenta; */
+
 
 .stick{
     position: fixed;
@@ -35,11 +43,9 @@ body{
     height:150px;
     top: 404px;
     left:368px;
-}
-
-.white{
     background: ivory;
 }
+
 
 .shadow{
     position: fixed;
