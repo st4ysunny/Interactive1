@@ -1,3 +1,15 @@
+@font-face {
+  font-family: "syne bold";
+  src: url("../assets/fonts/Syne-Bold.woff") format("woff"),
+       url("../assets/fonts/Syne-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "syne italic";
+  src: url("../assets/fonts/Syne-Italic.woff") format("woff"),
+       url("../assets/fonts/Syne-Italic.woff2") format("woff2");
+}
+
 body { 
 	background: darkslategrey;
 	padding-left: 50px;
@@ -5,8 +17,8 @@ body {
 
 p {
 	color: honeydew;
-	font-family: sans-serif;
-	font-size: 12pt;
+	font-family: syne bold, Helvetica, Arial, sans-serif;
+	font-size: 20px;
 	width:400px;
 }
 
@@ -17,18 +29,18 @@ pre{
 
 h1{
 	color: powderblue;
-	font-family: monospace;
+	font-family: syne italic;
 	font-size:20pt;
 
 }
 
 h3{
 	color: powderblue;
-	font-family: monospace;
+	font-family: syne italic;
 }
 
 .link{
-    font-family: sans-serif;
+    font-family: syne bold;
     font-size: 10pt;
     color: lavender;
 }
@@ -36,4 +48,6 @@ h3{
 ul{
 	color: powderblue;
 }
+
+
 

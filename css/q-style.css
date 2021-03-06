@@ -9,9 +9,10 @@ body{
 
 .bounding-box{
     position: relative;
-    width: 610px;
-    height: 610px;
+    width: 600px;
+    height: 600px;
     background: #EEFCFF;
+    
 }
 
 .segment {
@@ -20,6 +21,7 @@ body{
     display: inline-block;
     margin: 0px;
     background: #9D9CCA;
+    
 }
 
 .segment.blank {
