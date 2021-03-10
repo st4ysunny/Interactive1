@@ -446,7 +446,28 @@ body {
 	}
 
 
+/*links*/
+a{
+	font-family: all-round-gothic, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color:rgb(22, 108, 117);
+	font-size: 15px;
+	position: relative;
+	top:15px;
+	left: 10px;
 
+}
+
+.links{
+	background-color: rgba(252, 124, 205, .3);
+	width: 150px;
+	height: 70px;
+	border-radius: 10px;
+	position: fixed;
+	right: 25px;
+	bottom: 25px;
+}
 
 
 /*small letter formatting*/
