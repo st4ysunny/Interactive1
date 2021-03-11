@@ -5,14 +5,13 @@
 
 body{
 	background: rgb(254, 252, 255);
-	height: 1050px;
+	height: 1350px;
 }
 
 img{
 	transform: scale(.8);
 	position: absolute;
-/*	top:-500px;
-	left: -600px;*/
+	top:200px;
 	width: 100%;
 	height: auto;
 }
@@ -37,4 +36,9 @@ a{
 	position: fixed;
 	right: 25px;
 	bottom: 25px;
+}
+
+.title{
+	top: 125px;
+	transform: scale(.4);
 }
