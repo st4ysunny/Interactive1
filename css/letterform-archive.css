@@ -10,7 +10,7 @@ font-family: 'Cabin', sans-serif;*/
 
 #landing{
 	width: 1440px;
-	height: 800px;
+	height: 100vh;
 	background-image: linear-gradient(#252624, #3E0000);
 
 /*	border: 5px solid white;
@@ -132,6 +132,7 @@ img{
 
 img:hover{
 	animation-play-state: paused;
+
 }
 
 @keyframes images{
