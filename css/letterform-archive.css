@@ -49,7 +49,7 @@ h1{
 .landing-description{
 	font-family: 'Cabin', sans-serif;
 	color:#F2ECD5;
-	font-size:22;
+	font-size:20px;
 	padding-top: 95px;
 	padding-left: 100px;
 
@@ -159,6 +159,20 @@ img:hover{
 
 em{
 	font-style: italic;
+}
+	
+
+.to-top{
+	font-family: 'Cabin', sans-serif;
+	color:#F2ECD5;
+	font-size:22;
+	padding-left: 50px;
+	padding-bottom: 50px;
+
+	grid-row-start: 8;
+	grid-row-end: 9; 
+	grid-column-start: 1;
+	grid-column-end: 5;
 }
 
 .table-name{
