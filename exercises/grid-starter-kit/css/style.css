@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "syne bold";
+  src: url("../../../assets/fonts/Syne-Bold.woff") format("woff"),
+       url("../../../assets/fonts/Syne-Bold.woff2") format("woff2");
+}
+
 *{
 	margin: 0;
 	padding: 0;
@@ -5,6 +11,15 @@
 
 body {
 	font-size: 44px;
+	background: darkslategrey;
+}
+
+.link{
+    font-family: "syne bold";
+    font-size: 10pt;
+    color: lavender;
+    padding-top: 50px;
+    padding-left: 50px;
 }
 
 #container {
@@ -99,16 +114,3 @@ body {
 	background: blue;
 }
 
-/* uncomment below to adjust with a media query */
-
-/*@media screen and (max-width: 1000px) {
-
-	#a {
-		grid-row-start: 1;
-		grid-row-end: 2; 
-		grid-column-start: 1;
-		grid-column-end: 2;
-		background: red;
-	}
-
-}*/
