@@ -13,6 +13,7 @@
 body { 
 	background: darkslategrey;
 	padding-left: 50px;
+	--accent-color: #a6caff;
 }
 
 p {
@@ -28,26 +29,74 @@ pre{
 }
 
 h1{
-	color: powderblue;
-	font-family: syne italic;
+	color: var(--accent-color);
+	font-family: syne italic, "Courier New", cursive;
 	font-size:20pt;
 
 }
 
 h3{
-	color: powderblue;
-	font-family: syne italic;
+	color: var(--accent-color);
+	font-family: syne italic, "Courier New", cursive;
 }
 
 .link{
-    font-family: syne bold;
+    font-family: syne bold, Helvetica, Arial, sans-serif;
     font-size: 10pt;
     color: lavender;
 }
 
 ul{
-	color: powderblue;
+	color: var(--accent-color);
+}
+
+button{
+	font-family: syne italic, "Courier New", cursive;
+	font-size: 18px;
+	padding: 3px 8px;
+	background-color: var(--accent-color);
+	color: darkslategrey;
+	border-radius: 25%;
+	position: absolute;
+	top:15px;
+	right: 15vw;
+}
+
+.section-one {
+	display: flex;
+	width: 60vw;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+
+.section-two {
+	display: flex;
+	width: 50vw;
+	justify-content: space-around;
+	
+}
+
+.about{
+	order: -1;
 }
 
 
+body.darkmode {
+	background: #271940;
+	--accent-color: #fff5f9;
+}
+
+body.darkmode button{
+	background-color: var(--accent-color);
+	color: #271940;
+}
+
+body.darkmode .link{
+	color: #edfffc;
+}
+
+body.darkmode p, body.darkmode pre{
+	color: #c2faff;
+}
 
