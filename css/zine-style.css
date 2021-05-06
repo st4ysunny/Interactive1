@@ -78,7 +78,8 @@ p{
 }
 
 .body-text-box{
-	width: 600px;
+	width: 41vw;
+	min-width: 300px;
 	height: 75vh;
 	position: fixed;
 	right: 10vw;
