@@ -87,7 +87,8 @@ $(document).ready(function(){
      	$('.learn h3').toggleClass('show');
      });
 
-      $("#darkmode").click(function(){
+    $("#darkmode").click(function(){
 		$('body').toggleClass('darkmode');
+
 	});
 });

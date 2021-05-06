@@ -141,7 +141,7 @@ p{
 	font-size: 35px;
 	position: fixed;
 	left: 5vw;
-	top: 7vh; 
+	top: 20vh; 
 }
 
 .voice .circle{
@@ -151,7 +151,7 @@ p{
 	background: #EAEF07;
 	position: fixed;
 	left: 5vw;
-	top: 3vh; 
+	top: 15vh; 
 }
 
 .human{
@@ -335,16 +335,32 @@ a.link{
 
 
 button{
-	 font-family:'Kanit', Veranda, Monaco, sans-serif;
+	font-family:'Kanit', Veranda, Monaco, sans-serif;
  	font-weight: 300;
 	font-size: 20px;
-	padding: 3px 8px;
+	width: 150px;
+	height: 40px;
+	text-align: center;
 	background-color: var(--accent-color);
 	color: var(--primary-color);
-	border-radius: 25%;
-	position: absolute;
-	top:15px;
-	right: 15vw;
+	border-radius: 10px;
+	opacity: 70%;
+	position: fixed;
+	left: 4vw;
+	top: 4vh;
+/*	line-height: 35px;*/
+/*
+
+	background-color: var(--accent-color);
+	opacity: 70%;
+	width: 150px;
+	height: 40px;
+	border-radius: 10px;
+	position: fixed;
+	right: 4vw;
+	bottom: 4vh;
+ 	text-align: center;
+ 	line-height: 35px;*/
 }
 
 
