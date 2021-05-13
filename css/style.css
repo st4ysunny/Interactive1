@@ -19,7 +19,7 @@ body {
 p {
 	color: honeydew;
 	font-family: syne bold, Helvetica, Arial, sans-serif;
-	font-size: 20px;
+	font-size: 25px;
 	width:400px;
 }
 
@@ -31,18 +31,19 @@ pre{
 h1{
 	color: var(--accent-color);
 	font-family: syne italic, "Courier New", cursive;
-	font-size:20pt;
+	font-size:30pt;
 
 }
 
 h3{
 	color: var(--accent-color);
 	font-family: syne italic, "Courier New", cursive;
+	font-size: 20pt;
 }
 
 .link{
     font-family: syne bold, Helvetica, Arial, sans-serif;
-    font-size: 10pt;
+    font-size: 20pt;
     color: lavender;
 }
 
