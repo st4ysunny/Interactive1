@@ -106,7 +106,7 @@ $(document).ready(function(){
           $('h4').toggleClass('darkmode');
           $('button').toggleClass('darkmode');
           $('a').toggleClass('darkmode');
-          $('button').text('humanparrot');
+          $('button').text('human-parrot');
 	});
 
     $( function() {
