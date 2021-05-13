@@ -6,8 +6,19 @@
 	<link rel="stylesheet" type="text/css" href="../css/zine-style.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;1,200&family=Major+Mono+Display&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="https://use.typekit.net/rjg3wac.css">
 </head>
 <body>
+
+	<div class="human p-twelve draggable"></div>
+	<div class="arecibo p-twelve draggable"></div>
+	<div class="parrot p-eleven draggable"></div>
+	<div class="voice p-eleven draggable"></div>
+	<div class="fermi p-eleven draggable"></div>
+	<div class="silence p-twelve draggable"></div>
+	<div class="be-good p-twelve draggable"></div>
+	<div class="learn p-eleven draggable"></div>
 
 	<div class="body-text-box">
 		
@@ -27,9 +38,22 @@
 			The message is this:
 		</p>
 		<br>
-		<p>
-			<span class="be-good">You be good. I love you.</span>
-		</p>
+		<br>
+		<br>
+		<div class="envelope">
+
+			<svg width="336" height="200" viewBox="0 0 336 200" fill="none" xmlns="http://www.w3.org/2000/svg" class="closed-envelope">
+				<rect width="336" height="200" fill="#F0E8D5"/>
+				<path d="M168.002 113L9.87877e-06 3.60289e-05L336 3.09181e-05L168.002 113Z" fill="#D8CDB3"/>
+			</svg>
+			<!-- <div class="closed-envelope">
+				<svg height="6vh" width="35vw"class="envelope-flap" viewbox="0 0 100 100" fill="powderblue">
+					<polygon class="flap" points= "-10,0 50, 100 110, 0"/>
+			</div> -->
+			<p>
+				<span class="be-good" id="ily">You be good. <br>I love you.</span>
+			</p>
+		</div>
 
 	</div>
 
@@ -38,10 +62,10 @@
 	</div>
 
 	<div class="links-right">
-			<a href="zine-page-14.html" class="link">next page</a>
+			<a href="zine-page-14.html" class="link">about the story</a>
 	</div>
 
-	<button id="darkmode">dark/light</button>
+	<button id="darkmode">human/parrot</button>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>

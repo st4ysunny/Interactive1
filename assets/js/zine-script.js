@@ -87,8 +87,30 @@ $(document).ready(function(){
      	$('.learn h3').toggleClass('show');
      });
 
-    $("#darkmode").click(function(){
-		$('body').toggleClass('darkmode');
+     $('.closed-envelope').click(function(){
+          $('.closed-envelope').toggleClass('hide');
+          $('#ily').toggleClass('show');
+     });
 
+     $('#ily').click(function(){
+          $('.closed-envelope').toggleClass('hide');
+          $('#ily').toggleClass('show');
+     });
+
+    $("#darkmode").click(function(){
+          $(':root').toggleClass('darkmode');
+          $('p').toggleClass('darkmode');
+          $('.about p').toggleClass('darkmode');
+          $('span').toggleClass('darkmode');
+          $('h1').toggleClass('darkmode');
+          $('h4').toggleClass('darkmode');
+          $('button').toggleClass('darkmode');
+          $('a').toggleClass('darkmode');
+          $('button').text('humanparrot');
 	});
+
+    $( function() {
+     $( ".draggable" ).draggable();
+     });
+
 });

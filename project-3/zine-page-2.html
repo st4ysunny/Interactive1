@@ -6,10 +6,34 @@
 	<link rel="stylesheet" type="text/css" href="../css/zine-style.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;1,200&family=Major+Mono+Display&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.typekit.net/rjg3wac.css">
 </head>
 <body>
+<div>
 
-	<div class="body-text-box">
+	<div class="human p-one draggable"></div>
+	<div class="arecibo p-one draggable" ></div>
+	<div class="voice p-one draggable"></div>
+	<div class="parrot p-one draggable"></div>
+
+
+	<svg width="100vw" height="100vh" xmlns="http://www.w3.org/2000/svg" class="satellite">
+		<circle cx="0" cy="100vh" r="110vw" stroke="white" stroke-width="5" fill="none" />
+		<circle cx="0" cy="100vh" r="100vw" stroke="white" stroke-width="5" fill="none" />
+		<circle cx="0" cy="100vh" r="90vw" stroke="white" stroke-width="5" fill="none"/>
+		<circle cx="0" cy="100vh" r="80vw" stroke="white" stroke-width="5" fill="none"/>
+		<circle cx="0" cy="100vh" r="70vw" stroke="white" stroke-width="5" fill="none"/>
+		<circle cx="0" cy="100vh" r="60vw" stroke="white" stroke-width="5" fill="none"/>
+		<circle cx="0" cy="100vh" r="50vw" stroke="white" stroke-width="5" fill="none"/>
+		<circle cx="0" cy="100vh" r="40vw" stroke="white" stroke-width="5" fill="none"/>
+		<circle cx="0" cy="100vh" r="30vw" stroke="white" stroke-width="5" fill="none"/>
+		<circle cx="0" cy="100vh" r="20vw" stroke="white" stroke-width="5" fill="none"/>
+		<circle cx="0" cy="100vh" r="10vw" stroke="white" stroke-width="5" fill="none"/>
+	</svg>
+ 
+	
+
+	<div class="body-text-box" id="short-text-box">
 		<p>
 			The <span class="human">humans</span> use <span class="arecibo">Arecibo</span> to look for extraterrestrial intelligence. Their desire to make a connection is so strong that they’ve created an ear capable of hearing across the universe.
 		</p>
@@ -31,7 +55,7 @@
 			<a href="zine-page-3.html" class="link">next page</a>
 	</div>
 
-	<button id="darkmode">dark/light</button>
+	<button id="darkmode">human/parrot</button>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
